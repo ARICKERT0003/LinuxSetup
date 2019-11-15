@@ -1,9 +1,9 @@
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
-" Put all swap files in .swp
+" Put all swap files in .swap
 set backupdir=~/.vim/backup/,~/.vim/temp/
-set directory=~/.vim/swp/
+set directory=~/.vim/swap/
 
 " Load plugins here (pathogen or vundle)
 execute pathogen#infect()

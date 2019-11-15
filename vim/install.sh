@@ -10,7 +10,7 @@ apt-get install curl
 sudo -u $username cp vimrc ~/.vimrc
 
 # Make directories which vimrc utilizes
-sudo -u $username mkdir -p ~/.vim/{autoload,backup,bundle,undo}
+sudo -u $username mkdir -p ~/.vim/{autoload,backup,bundle,undo,swap}
 
 # Download pathogen; a vim package handler
 sudo -u $username curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
