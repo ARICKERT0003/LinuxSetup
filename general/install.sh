@@ -18,5 +18,11 @@ apt install npm
 # Git
 apt install git
 
+# Set Git User
+git config --global user.email "ARICKERT0003@gmail.com"
+git config --global user.name "Alex"
+git config --global core.editor "vim"
+
 # Git Book
 npm install gitbook-cli -g
+

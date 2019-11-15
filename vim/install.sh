@@ -15,6 +15,9 @@ sudo -u $username mkdir -p ~/.vim/{autoload,backup,bundle,undo}
 # Download pathogen; a vim package handler
 sudo -u $username curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
+# Vim 
+apt-get install vim
+
 # Download CTags
 apt-get install ctags
 
@@ -25,3 +28,4 @@ sudo -u $username git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bun
 
 # NERDTree
 sudo -u $username git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+
