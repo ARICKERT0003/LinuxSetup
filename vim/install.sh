@@ -29,3 +29,5 @@ sudo -u $username git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bun
 # NERDTree
 sudo -u $username git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
+# GruvBox
+sudo -u $username git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
