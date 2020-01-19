@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set user variable
-username=$(whoami)
+username=$SUDO_USER
 
 # CMake
 apt-get install cmake
@@ -25,4 +25,3 @@ git config --global core.editor "vim"
 
 # Git Book
 npm install gitbook-cli -g
-

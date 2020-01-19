@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set user variable
-username=$(whoami)
+username="$SUDO_USER"
 
 # Install cURL
 apt-get install curl

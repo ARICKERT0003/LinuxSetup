@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set user variable
-USERNAME=$(whoami)
+USERNAME=$SUDO_USER
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Copy bashrc to home directory
