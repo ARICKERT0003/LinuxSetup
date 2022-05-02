@@ -65,12 +65,14 @@ fi
 #fi
 
 bold="\[$(tput bold)\]"
-white="\[$(tput setaf 15)\]"
-green="\[$(tput setaf 22)\]"
-purple="\[$(tput setaf 109)\]"
+white="\[$(tput setaf 95)\]"
+indianred="\[$(tput setaf 131)\]"
+lightslategrey="\[$(tput setaf 230)\]"
+lightskyblue3="\[$(tput setaf 109)\]"
+grey62="\[$(tput setaf 240)\]"
 reset="\[$(tput sgr0)\]"
 
-PS1="${bold}${white}\u@\h ${reset}${green}\w ${purple}"'$(__git_ps1 "(%s)")'" ${reset}"
+PS1="${bold}${lightslategrey}\u@\h ${reset}${indianred}\w ${grey62}"'$(__git_ps1 "(%s)")'" ${reset}"
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir

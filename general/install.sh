@@ -48,6 +48,9 @@ ln -s "${boost_path}boost_1_77_0/boost" "${boost_path}/include/boost"
 # Symbolically link cpp and library files
 ln -s "${boost_path}boost_1_77_0/libs" "${boost_path}/lib/boost"
 
+echo "======================="
+echo "Installing Git"
+echo "======================="
 # Git
 apt install git
 
@@ -58,3 +61,11 @@ git config --global core.editor "vim"
 
 # Git Book
 npm install gitbook-cli -g
+
+echo "======================="
+echo "Installing Spotify"
+echo "======================="
+curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+
+apt-get update && sudo apt-get install spotify-client
