@@ -62,6 +62,13 @@ git config --global core.editor "vim"
 # Git Book
 npm install gitbook-cli -g
 
+
+echo "======================="
+echo "Installing Grip"
+echo "======================="
+# Git
+apt install grip
+
 echo "======================="
 echo "Installing Spotify"
 echo "======================="
